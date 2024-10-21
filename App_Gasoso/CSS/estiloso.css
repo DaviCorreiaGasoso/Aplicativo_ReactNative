@@ -1,0 +1,53 @@
+container {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+icone_login {
+    width: 150;
+    height: 150;
+    margin-bottom: 40;
+}
+
+inputView {
+    width: 80%;
+    height: 50;
+    background-color: white;
+    border-radius: 25;
+    margin-bottom: 20;
+    justify-content: center;
+    padding: 20;
+    flex-direction: row;
+    align-items: center;
+    border-color: black;
+}
+
+texto_input {
+    height: 50;
+    color:black;
+    flex: 1;
+    border-color: azure;
+}
+
+botao_entrar {
+    width: 80%;
+    background-color: #fb5b5a;
+    border-radius: 25;
+    height: 50;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40;
+    margin-bottom: 10;
+}
+
+texto_botao {
+    color:white
+}
+
+background{
+    flex: 1;
+    resize: cover;
+    justify-content: center;
+    background-color: #f5f5dc;
+}
