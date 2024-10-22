@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet,style, Text, View } from 'react-native';
-import './CSS/estiloso.js';
+import  React from 'react';
+import { Text, View } from 'react-native';
+import estiloso from "./CSS/estiloso.js";
 
 
 export default function App() {
   return (
     <SafeAreaView style={[estiloso.background]}>
-    <View styles={[estiloso.container]}>
+    <View style={[estiloso.container]}>
 
     <Image
     source="../Imagens/icone_login.png"
@@ -35,3 +35,4 @@ export default function App() {
   </SafeAreaView>
   );
 }
+
